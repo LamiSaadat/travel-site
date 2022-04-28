@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 3rem 4rem;
+  margin-top: 4rem;
 }
 
 .hero__text-div {
@@ -65,6 +66,7 @@
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.20);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20);
+  background-clip: padding-box;
 }
 
 .recos__card--hawaii {
