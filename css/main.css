@@ -36,3 +36,53 @@
   max-width: 27.25rem;
   min-width: 28.125rem;
 }
+
+/* recommendations section */
+.recos {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.recos__title {
+  color: var(--travel-blue);
+  margin: 3rem 0 2rem 0;
+}
+.recos__cards {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.recos__card {
+  max-height: 450px;
+  min-height: 400px;
+  max-width: 300px;
+  min-width: 250px;
+  background-size: cover;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.recos__card--hawaii {
+  background-image: url('../assets/Images/hawaii.jpg');
+}
+
+.recos__card--iceland {
+  background-image: url('../assets/Images/iceland.jpg');
+}
+
+.recos__card--greece {
+  background-image: url('../assets/Images/greece.jpg');
+}
+
+.recos__name {
+  color: var(--white);
+  position: absolute;
+  font-size: 1.3rem;
+  right: 1rem;
+  bottom: 1rem;
+}
