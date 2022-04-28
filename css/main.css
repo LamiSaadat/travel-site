@@ -1,7 +1,7 @@
 /* hero section */
 .hero {
   display: flex;
-  background-color: var(--travel-white);
+  background-color: var(--travel-pink);
   align-items: center;
   justify-content: space-around;
   padding: 3rem 4rem;

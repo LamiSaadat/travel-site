@@ -1,7 +1,7 @@
 :root {
   --travel-blue: #335576;
   --travel-orange: #db7a4e;
-  --travel-white: #fefaf5;
+  --travel-pink: #fefaf5;
   --black: #00;
   --white: #fff;
 }
@@ -52,3 +52,64 @@ li {
   border-bottom: 0.25rem solid var(--travel-orange);
   padding-bottom: 0.6rem;
 }
+
+/* footer */
+.footer {
+  background-color: var(--travel-pink);
+  padding: 5rem 0;
+}
+
+.footer__content {
+  max-width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact,
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__hours {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45%;
+}
+
+.footer__title {
+  color: var(--travel-blue);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.footer__description {
+  color: var(--travel-orange);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+
+.footer__details {
+  color: var(--travel-blue);
+  font-size: 0.85rem;
+}
+
+.footer__socials {
+  max-width: 15%;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icon {
+  min-width: 1.15rem;
+  max-width: 1.5rem;
+  min-height: 1.15rem;
+  max-height: 1.6rem;
+}
+
+
