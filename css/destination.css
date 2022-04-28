@@ -25,13 +25,14 @@
 .container__title {
   color: var(--white);
   font-size: 4rem;
+  margin-top: 2rem;
 }
 
 .container__cards {
   display: flex;
   justify-content: space-between;
   max-width: 75%;
-  margin: 5.5rem auto;
+  margin: 3.5rem auto;
 
 }
 
